@@ -2,7 +2,7 @@
     Day 1- print() function 
         -print("your text here") 
             -outputs what was in quotes
-            - quotes denotes that anything between them is not code and is known as a string and includes spaces.
+            - quotes denotes that anything between them is not code and is known as a string and can includes spaces.
 
         -print(variable)
 
