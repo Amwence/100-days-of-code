@@ -24,3 +24,5 @@
         -variables: age = input("Age")  
         -
         -Not Technically in the lesson but I was fucking around and wanted to try it. int(input()) will take your input and store it as an integer. If you try and input a letter or anything other than an integer the program throws an error. I'm guessing in order to fix it I'd have to program debugging and input handling into the code. 
+
+Day 2 notes- https://github.dev/Amwence/100-days-of-code/blob/47cdb8bb46ad855e1c202c1180a25b4d78496223/Day%202/Day%202
