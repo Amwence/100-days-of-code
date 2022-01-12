@@ -1,0 +1,10 @@
+#Day 2 Code
+#1/12/2022
+# Understanding Data Types and Manipulating Strings
+
+age = int("age? ")
+name = str("name? ")
+
+if name = true
+    then print(age)
+    else print("what you doing " + name)
