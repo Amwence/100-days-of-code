@@ -1,0 +1,49 @@
+# 🚨 Don't change the code below 👇
+two_digit_number = input("Type a two digit number: ")
+# 🚨 Don't change the code above 👆
+
+####################################
+#Write your code below this line 👇
+
+
+first_Digit = int(two_digit_number[0])
+
+second_Digit = int(two_digit_number[1])
+
+print("The sum of your two digits are: ")
+print(first_Digit+second_Digit)
+print()
+
+print("3 variables were used in the making of this code and they are defined by type below: \n")
+print()
+
+print("first variable is \n")
+print(type(two_digit_number))
+print()
+
+print("Second Variable is \n")
+print(type(first_Digit))
+print()
+
+print("Third Variable is \n")
+print(type(second_Digit))
+print()
+
+#Second Challenge
+
+# 🚨 Don't change the code below 👇
+height = input("enter your height in m: ")
+weight = input("enter your weight in kg: ")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+#BMI is calculated as weight divided by the square of your height. 
+#changing new variables to float instead of int because when chaning from pounds to kilos it is often a decimal
+#changing back to an integer for final calculation so it's a clean number. 
+
+height_Meter = float(height)
+weight_Kilograms = float(weight)
+
+print("Your BMI is: ")
+print(int(weight_Kilograms/height_Meter**2))
