@@ -3,7 +3,7 @@
 
 #1. Create a greeting for your program.
 
-print("Yo yo yo It's ya boy fuckboi Mcgillacutty")
+print("Welcome to this super lame Band Name Generator!!!  ")
 
 #2. Ask the user for the city that they grew up in.
 
