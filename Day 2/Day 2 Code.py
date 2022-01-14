@@ -6,7 +6,8 @@
 
  #String
 
-"123"
+print("123")
+
 print("123"+"345")
 
 print("Hello"[4])
@@ -101,3 +102,40 @@ print()
 
 print(3*3/3-3) # happens from left to right because multiplication and division has the same priority.
 print(3*3+3/3-3) #outputs to 7 because of PEMDAS
+
+# Rounding numbers round(),number of places you want it rounded to. 
+print(round(8/3,2))
+
+#floor division without changing into an integer. Chops off the end does not round. 
+print(8//3)
+
+#All division is floating point by default. Need to use int(), round(), or // to get int type. 
+
+#Divides 4 by 2 saves the result then divides the result by 2 and then prints the result. 
+print("ready for results:")
+
+result = 4/2
+
+result /= 2
+print(result)
+
+#short hand for operators += /= *= -= instead of the two options below
+print("SCOOOOOOOORRRREEEEE")
+
+score = 0
+
+score += 2
+print(score)
+
+score = score -1
+print(score)
+
+#f-string in front of a string type an f"this is a string{converted thing}" allows you to add various values into the string
+
+score = 0 
+height = 1.8
+isWinning = True
+
+print(f"your score is {score}, your height is {height}, you are winning is {isWinning}")
+
+#your score is 0, your height is 1.8, you are winning is True

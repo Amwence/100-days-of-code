@@ -1,3 +1,6 @@
+#First Challenge
+#Digit Splitter
+
 # 🚨 Don't change the code below 👇
 two_digit_number = input("Type a two digit number: ")
 # 🚨 Don't change the code above 👆
@@ -30,6 +33,7 @@ print(type(second_Digit))
 print()
 
 #Second Challenge
+#Bmi Calculator
 
 # 🚨 Don't change the code below 👇
 height = input("enter your height in m: ")
@@ -47,3 +51,21 @@ weight_Kilograms = float(weight)
 
 print("Your BMI is: ")
 print(int(weight_Kilograms/height_Meter**2))
+
+#Third Challenge
+# Time Left Calculator
+
+# 🚨 Don't change the code below 👇
+age = input("What is your current age?")
+# 🚨 Don't change the code above 👆
+
+#Write your code below this line 👇
+
+time_Left = 90 - int(age)
+time_Left_Months = time_Left * 12
+time_Left_Weeks = time_Left * 52
+time_Left_Days = time_Left * 365
+
+print(f"You have {time_Left_Months} months, {time_Left_Weeks} weeks, and {time_Left_Days} days left.")
+
+print("Act accordingly")
