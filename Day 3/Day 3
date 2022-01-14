@@ -1,5 +1,5 @@
 Flow control and Logical Operators
-if else elif
+if, else, elif
 
 if condition:
   do this
@@ -18,7 +18,7 @@ else:
   modulo gives you the remainder of division
 
   7 % 2 = 2+2+2+1
-  2 can be divided into 7 3 times with a remainder of 1.
+  2 can be divided into 7: 3 times with a remainder of 1 = 2+2+2+1
   7 % 2 would output 1 
 
 Nested if statements checks from top down if conditions are true and moves down accordingly.
@@ -28,7 +28,7 @@ if condition:
     do this
     else:
       do this
-      
+     
 else:
  do this
 
@@ -39,3 +39,11 @@ elif condition2:
     do b 
 else:
   do c
+
+And statements &
+
+if condition1 & condition2 & condition3:
+  do this
+
+else:
+  do this
