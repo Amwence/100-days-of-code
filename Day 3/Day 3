@@ -29,4 +29,13 @@ if condition:
     else:
       do this
       
-else
+else:
+ do this
+
+if condition1:
+  do a
+
+elif condition2:
+    do b 
+else:
+  do c

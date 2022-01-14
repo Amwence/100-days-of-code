@@ -33,9 +33,12 @@ water_Level = int(water_Level)
 if water_Level > 80:
   print("Drain the water")
 elif water_Level == 80:
-  print("You can stop now")
+  print("You can stop now it's full")
 
 else:
-  print()
+  while water_Level < 80:
+    water_Level += 1 
+    print(f"The water is filling please wait {water_Level} \n")
+
 
   
