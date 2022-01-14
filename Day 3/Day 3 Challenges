@@ -78,13 +78,15 @@ year = int(input("Which year do you want to check? "))
 mod_Year1 = bool(year % 4 ==0)
 mod_Year2 = bool(year % 100 == 0)
 mod_Year3 = bool(year % 400 == 0)
-print(mod_Year1, mod_Year2, mod_Year3)
+
+#print(mod_Year1, mod_Year2, mod_Year3)
 if mod_Year1 == True:
-  if mod_Year2 == False:
+  if mod_Year2 == True:
     if mod_Year3 == True:
       print("It's A Leap Year")
-
-else:
-  if mod_Year1 == True + mod_Year2 == False + mod_Year3 == True:
-    print("It's A leap Year")
-    print("It's not a Leap Year")
+    else:
+      print("It's NOT a Leap Year")
+#else:
+ # if mod_Year1 == True + mod_Year2 == False + mod_Year3 == True:
+  #  print("It's A leap Year")
+   # print("It's not a Leap Year")
