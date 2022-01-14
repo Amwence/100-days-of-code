@@ -86,7 +86,8 @@ if mod_Year1 == True:
       print("It's A Leap Year")
     else:
       print("It's NOT a Leap Year")
-#else:
- # if mod_Year1 == True + mod_Year2 == False + mod_Year3 == True:
+else:
+  print("It's NOT a Leap year")
   #  print("It's A leap Year")
    # print("It's not a Leap Year")
+# So you need that last else statement if the first statement is false or the program doesn't print out any information. 
