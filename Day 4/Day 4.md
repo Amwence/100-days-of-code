@@ -9,6 +9,12 @@
 In order to use the random number module we first need to ``import`` it using the ``import random`` command. After the **method** has been imported you can use the method commands to create different random integers, floating points, sequences, etc. For more information try checking the
 [Random module](https://www.askpython.com/python-modules/python-random-module-generate-random-numbers-sequences) for more information.
 <br></br>
+<p> 
+What is a module? In Python, <b>Modules</b> are simply files with the ".py" extension containing Python code that can be imported inside another Python program. In simple terms, we can consider a module to be the same as a code library or a file that contains a set of functions that you want to include in your application. <br></br>
+
+We were quickly shown how to create our own module's to import by creating a new file called my_module.py, and then creating a variable called pi within that file. We then would ``import my_module`` and could then call the variable by ``my_module.pi`` so we used the command ``print(my_module.pi)`` and it called that variable. 
+</p>
+
 
 ### Random Integers:
 
@@ -18,7 +24,7 @@ In order to use the random number module we first need to ``import`` it using th
 
 ### Random Floating Point Numbers:
 
-``random.random()`` Returns the next random floating point number between 0.0 to  1.0.<br>
+``random.random()`` Returns the next random floating point number between [0.0 to  1.0). Not inclusive, and does **not** include 1.0.<br>
 ``random.uniform(a,b)`` Returns a random floating point N such that *a<=N<=b* if *a<=b* and *b<=N<=a* if *b<a* . <br>
 
 ### Random Sequence:
@@ -28,22 +34,22 @@ In order to use the random number module we first need to ``import`` it using th
 
 ## Commands:
 Integers:<br>
-``import random``
-``random.randrange(start,stop,step)``
-``random.randint(a,b)``
+``import random``<br>
+``random.randrange(start,stop,step)``<br>
+``random.randint(a,b)``<br>
 <br>
 Floating point:<br>
 
-``import random`` 
-``random.random()`` 
-``random.uniform(a,b)``
+``import random`` <br>
+``random.random()`` <br>
+``random.uniform(a,b)``<br>
 <br>
 Sequence/List:
 
-``import random``
-``random.shuffle(x)``
-``random.choice(seq)``
-``random.sample(population,k)``  
+``import random``<br>
+``random.shuffle(x)``<br>
+``random.choice(seq)``<br>
+``random.sample(population,k)``<br>  
 
 ## Lists: 
 
@@ -55,6 +61,12 @@ Lists in python are mutable meaning they can be changed by reassigning the list,
 ``name_of_list.append(value)`` Appends to the end of a list.<br>
 ``name_of_list.insert(index_value, value)`` Will insert the value where the index indicates. Starts at 0, and negative indeces would be the end of the list, so -1 would be the last item in a list -2 would be the second to last and so on. When inserting at a certain point in the list it takes the current value in that index and shifts it and everything else down. <br>
 ``name_of_list = [value1,[value2,value3],value4]`` You can nest lists within other lists. In this example if you looked at the index of 1 it would be both value 2 and 3. <br>
+``name_of_list.sort()`` Sorts a list. <br>
+``name_of_list.pop([index])`` Removes an item from that index of a list.<br>
+``name_of_list.clear()`` Deletes all contents of a list.
+``name_of_list.extend(value1)`` Add the elements of a list (or any iterable), to the end of the current list. Only takes one argument/value, but can be used to add more than one value to a list.<br>
+Example:<br> 
+``name_of_list.extend([value1,value2,value3,value4])`` while trying this with append would put all the values into that index as another list. Extend will add each of those values to the end of the list you are working with giving them their own indeces. Whereas append would put all those values as a list at that index. 
 <br>
 *Note: List values start at index 0, however when starting at the end of a list the values start at -1.*
 <br>
@@ -84,3 +96,21 @@ print(list[-3]) # would print [b,c] because you can nest lists inside eachother 
 ``name_of_list = [value1_index0,value2_index1,value3_index2]``<br>
 ``name_of_list[index]``<br>
 ``name_of_list[start:stop:index_jump]``<br>
+``name_of_list.sort()``<br>
+``name_of_list.clear()``<br>
+``name_of_list.pop([index])``<br>
+``name_of_list.extend(value)``<br>
+``name_of_list.extend([value1,value2,value3])``<br>
+
+## New Commands
+``string.split(argument)``<br>
+example:<br>
+```
+txt = "Welcome to the jungle"
+x = txt.split()
+print(x)
+
+txt_input = input("Input text her separated by a , comma then a space :")
+list = txt_input.split(",")
+print(list)
+```
