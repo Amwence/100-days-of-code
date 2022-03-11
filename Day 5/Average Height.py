@@ -51,15 +51,25 @@ for n in range(0, len(student_heights)):
 
 #Write your code below this row 👇
 
-
+height = 0 # I think I tried this solution, but I put this variable in the for loop. Causing it to reset to 0 everytime the loop started again. I get it now.
+'''
 for num in range(0,len(student_heights)):
   print(student_heights[num])
   total = student_heights[num] + student_heights[0]
-  
+  '''
+for num in student_heights:
+  height += num
+  print(height)
 
-print(f"list = {student_heights}")
-print(f"sum = {total}")
+#print(f"list = {student_heights}") Used for testing no longer needed.
 
-average = total // len(student_heights)
+number_of_studnets = 0 
+for student in student_heights:
+  number_of_studnets += 1
+
+print(f"sum = {height}")
+
+
+average = round(height / number_of_studnets)
 
 print(f"The average among {student_heights} ", f'is {average}')
