@@ -9,3 +9,5 @@ Example:
 for item in list_of_items:
     #Do something to each item
 ```
+
+The range function is used as a way to do things within a certain range. Suprising I know. it is used range(start, stop but not included,index jump/step). So range(0,10,2) would print 0, 2, 4, 6, 8, because 10 is not included, and it goes up by 2. 
