@@ -1,0 +1,1 @@
+you can do input("something).lower() to get lower case. You don't have to do a separate variable. 
