@@ -55,7 +55,7 @@ If you wanted to completely wipe an existing dictionary you could make the exist
 ``print(programming_dictionary)``
 
 ## Edit items in a dictionary
-``dictionary[key_name}]: "Change the thing in keyname to this"``
+``dictionary[key_name]: "Change the value in keyname to this"``
 
 # Looping through a dictionary
 
