@@ -26,11 +26,11 @@ print(programming_dictionary["Bug"])
 ```
 The above code will call upon the programming dictionary at the key of ``"Bug"`` and return ``An error in a program that prevents the program from running as expected.``. 
 
-*Note: the syntax for calling on a item in the dectionary is the name of the dictionary and then the key, so ``dictionary_name["key"]`` much like accessing an index for a list.  
+*Note: the syntax for calling on a item in the dictionary is the name of the dictionary and then the key, so ``dictionary_name["key"]`` much like accessing an index for a list.  
 
 ## Adding an item to a dictionary
 
-Start by calling upon the name of the diectionary at key equal to value. So for example:
+Start by calling upon the name of the dictionary at key equal to value. So for example:
 ```
 programming_dictionary = {
     "Bug": "An error in a program that prevents the program from running as expected.",
@@ -102,18 +102,78 @@ nested_dict = {
 print(nested_list)
 print(nested_dict)
 ```
+## Taking things out of a nested dictionary
+You would retrieve items via their index, and you would just do indexes one after the other as they come up. 
+``dictname[index1][index2]``
 
-Python has a set of built-in methods that you can use on dictionaries.
+```
+nested_list = [
+    {
+        "key": "value",
+        "different_key": "value",
+        "number_value": 2
+    }
+]
 
-Method	Description
-clear()	Removes all the elements from the dictionary
-copy()	Returns a copy of the dictionary
-fromkeys()	Returns a dictionary with the specified keys and value
-get()	Returns the value of the specified key
-items()	Returns a list containing a tuple for each key value pair
-keys()	Returns a list containing the dictionary's keys
-pop()	Removes the element with the specified key
-popitem()	Removes the last inserted key-value pair
-setdefault()	Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
-update()	Updates the dictionary with the specified key-value pairs
-values()	Returns a list of all the values in the dictionary
+nested_dict = {
+    'nested':{
+        "dict_key" : "value"
+        "dict_list" : [val1,val2,val3]
+    }
+}
+print(nested_list)
+print(nested_dict)
+
+print(nested_dict['nested']['dict_key'])
+```
+
+# Python has a set of built-in methods that you can use on dictionaries.
+<table>
+<tr>
+    <th>Method</th>	
+    <th>Description</th>
+</tr>
+<tr>
+    <td>clear()</td>
+    <td>Removes all the elements from the dictionary</td>
+</tr>
+<tr>
+    <td>copy()</td>
+    <td>Returns a copy of the dictionary</td>
+<tr>
+    <td>fromkeys()</td>
+    <td>Returns a dictionary with the specified keys and value</td>
+</tr>
+<tr>
+    <td>get()</td>
+    <td>Returns the value of the specified key</td>
+</tr>
+<tr>
+    <td>items()</td>
+    <td>Returns a list containing a tuple for each key value pair</td>
+</tr>
+<tr>
+    <td>keys()</td>	
+    <td>Returns a list containing the dictionary's keys</td>
+</tr>
+<tr>
+    <td>pop()</td>	
+    <td>Removes the element with the specified key</td>
+</tr>
+<tr>
+    <td>popitem()</td>	
+    <td>Removes the last inserted key-value pair</td>
+</tr>
+<tr>
+    <td>setdefault()</td>	
+    <td>Returns the value of the specified key. If the key does not exist: insert the key, with the specified value</td>
+</tr>
+<tr>
+    <td>update()</td>	
+    <td>Updates the dictionary with the specified key-value pairs</td>
+</tr>
+<tr>
+    <td>values()</td>	
+    <td>Returns a list of all the values in the dictionary</td>
+</tr>
+</table>

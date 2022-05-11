@@ -1,8 +1,12 @@
-from replit import clear
-from art import logo
+# This was done in replit so the clear import will need to be changed if not doing it in replit. I also didn't save the art so that won't work either.
+#from replit import clear
+#rom art import logo
 
-print(logo)
+#print(logo)
 #HINT: You can call clear() to clear the output in the console. 
+
+#Solution is convoluted and needs to be fixed. 
+
 total_bids ={}
 value=[] 
 

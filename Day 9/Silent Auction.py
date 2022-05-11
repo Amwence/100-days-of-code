@@ -1,7 +1,7 @@
-from replit import clear
-from art import logo
+#from replit import clear
+#from art import logo
 
-print(logo)
+#print(logo)
 
 bids = {}
 bidding_finished = False
