@@ -1,4 +1,13 @@
-# Currently game gets hung up on the player choice function. Need to find fix. 
+'''
+Currently game gets hung up on the player choice function. Need to find fix. 
+Code is also a bit wonky with all the functions calling other functions. There is definitely a better way to do this and make it more readable.
+Need to fix code, then maybe find a way to cut out things that aren't needed, like current status, or update current status so it can be called
+instead of having all of the print statements within the functions. Make it so that current status has all the print statements in it, but gives
+different outputs depending on what function you are in, and what output you want. Also possibly find a way to clear the screen so it doesn't seem 
+so cluttered. An ace can usually be either an 11 or a 1 maybe add that in at a later date, along with the split option if you have two of the same 
+card. 
+
+'''
 
 
 import random
