@@ -1,3 +1,7 @@
+##########################################SOLUTION FOR BLACKJACK I DID NOT WRITE##########################################
+
+
+
 ############### Blackjack Project #####################
 
 #Difficulty Normal 😎: Use all Hints below to complete the project.
